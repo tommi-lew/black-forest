@@ -14,4 +14,8 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
-/tmp
+/tm
+
+# Unicorn
+shared/log/*
+shared/pids/*
