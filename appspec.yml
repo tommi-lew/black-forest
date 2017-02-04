@@ -9,9 +9,6 @@ files:
   - source: /
     destination: /home/ubuntu/black-forest
 
-permissions:
-  - object: /home/ubuntu/black-forest
-
 hooks:
   ApplicationStart:
-    - location: /home/ubuntu/black-forest/script/ApplicationStart.sh
+    - location: script/ApplicationStart.sh
