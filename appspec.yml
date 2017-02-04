@@ -14,4 +14,4 @@ permissions:
 
 hooks:
   ApplicationStart:
-    - location: script/ApplicationStart.sh
+    - location: ./script/ApplicationStart.sh
