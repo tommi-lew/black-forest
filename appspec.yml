@@ -11,4 +11,7 @@ files:
 
 hooks:
   ApplicationStart:
-    - location: script/ApplicationStart.sh
+    - location: sudo service unicorn_blackforest restart
+      timeout: 180
+    - location: sudo service nginx restart
+      timeout: 180
