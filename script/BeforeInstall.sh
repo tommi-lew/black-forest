@@ -1,3 +1,3 @@
 sudo service unicorn_blackforest stop
-cd /home/ubuntu/black-forest
-rm -rf *
+rm -rf /home/ubuntu/black-forest
+mkdir /home/ubuntu/black-forest
