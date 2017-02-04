@@ -1,1 +1,1 @@
-rails server -e production -p 80
+rails s --binding=0.0.0.0
