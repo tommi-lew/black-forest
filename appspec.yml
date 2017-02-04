@@ -11,10 +11,8 @@ files:
 
 hooks:
   BeforeInstall:
-    - location: sudo service unicorn_blackforest stop
     - location: script/BeforeInstall.sh
-  ApplicationStart:
-    - location: sudo service unicorn_blackforest start
       timeout: 180
-    - location: sudo service nginx restart
+  ApplicationStart:
+    - location: script/ApplicationStart.sh
       timeout: 180
